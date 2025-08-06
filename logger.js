@@ -1,4 +1,4 @@
-
+ooh
 const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
@@ -39,7 +39,7 @@ class KeithLogger {
         const messageType = m.mtype;
         const text = m.text || '';
 
-        console.log(keithPurple.bold(`\t ${BOT_SYMBOL} ${BOT_SYMBOL} ${BOT_SYMBOL} { K E I T H - M D } ${BOT_SYMBOL} ${BOT_SYMBOL} ${BOT_SYMBOL}`));
+        console.log(keithPurple.bold(`\t ${BOT_SYMBOL} ${BOT_SYMBOL} ${BOT_SYMBOL} { E L I A K I M - M D } ${BOT_SYMBOL} ${BOT_SYMBOL} ${BOT_SYMBOL}`));
         console.log(keithGold.bold("╔════════════════════════════╗"));
         console.log(keithGold.bold(`║ ${MESSAGE_SYMBOL}   N E W   M E S S A G E   ${MESSAGE_SYMBOL} ║`));
         console.log(keithGold.bold("╚════════════════════════════╝"));
